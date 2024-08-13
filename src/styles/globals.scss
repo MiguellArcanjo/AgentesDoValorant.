@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+
+@font-face {
+  font-family: 'Druk';
+  src: url('/public/font/druk-medium.otf');
+}
+
+@font-face {
+  font-family: 'Druk';
+  src: url('/public/font/druk-bold.otf');
+}
+
 :root {
   --white: #FFFFFF;
   --black: #1F2326;
