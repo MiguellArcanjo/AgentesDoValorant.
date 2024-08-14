@@ -11,29 +11,35 @@
     .title {
         position: relative;
         margin-right: 24px;
-    }
 
-    img {
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-    }
+        img {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+        
+        h1 {
+            font-family: 'Druk', sans-serif;
+            font-size: 70px;
+            letter-spacing: 12px;
     
-    h1 {
-        font-family: 'Druk', sans-serif;
-        font-size: 70px;
-        letter-spacing: 12px;
-
-        color: transparent;
-        -webkit-text-stroke: 2px var(--white);
-
-        writing-mode: vertical-rl;
+            color: transparent;
+            -webkit-text-stroke: 2px var(--white);
+    
+            writing-mode: vertical-rl;
+        }
+    
     }
 
+    
 }
 
-.characters {
+.agents {
     flex: 1;
     background: blue;
     
+    display: flex;
+    column-gap: 16px;
+
 }
+
